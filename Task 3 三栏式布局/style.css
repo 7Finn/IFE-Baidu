@@ -1,0 +1,62 @@
+div {
+	border: 1px solid #999;
+}
+
+.container {
+	background: #eee;
+	padding: 20px;
+	overflow: hidden;
+}
+
+.left {
+	padding: 20px;
+	width: 200px;
+	float: left;
+	background: #fff;
+}
+
+.left .team-logo {
+	float: left;
+	width: 80px;
+	height: 80px;
+	background: #eee;
+}
+
+.left .team-name {
+	float: right;
+}
+
+
+.mid {
+	margin-left: 260px;
+	margin-right: 140px;
+	background: #fff;
+	padding: 20px;
+	word-wrap: break-word;
+}
+
+.mid p {
+	margin: 0;
+}
+
+.right {
+	width: 120px;
+	background: #fff;
+	float: right;
+}
+
+.right ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.right ul .team-member {
+	width: 80px;
+	height: 80px;
+	background: #eee;
+	border: 1px solid #999;
+
+	margin: 20px;
+}
+

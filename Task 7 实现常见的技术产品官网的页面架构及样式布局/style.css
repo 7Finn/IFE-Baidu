@@ -1,0 +1,242 @@
+*, body{
+  padding: 0;
+  margin: 0;
+  font-family: '微软雅黑';
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1368px;
+}
+
+
+/*----------------nav-brand----------------*/
+
+.nav {
+  height: 60px;
+  width: 100%;
+  position: relative;
+}
+
+.nav .brand-logo {
+  position: absolute;
+  left: 60px;
+  height: 70%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nav .brand-name {
+  position: absolute;
+  left: 110px;
+  line-height: 60px;
+  font-size: 20px;
+}
+
+/*----------------navbar----------------*/
+
+.nav .navbar {
+  position: absolute;
+  right: 60px;
+  list-style: none;
+}
+
+.nav .navbar li {
+  font-size: 15px;
+  height: 56px;
+  width: 80px;
+  display: inline-block;
+  line-height: 56px;
+  text-align: center;
+  color: #787b83;
+}
+
+.nav .navbar .active {
+  color: #e74f4d;
+  border-bottom: 4px solid #e74f4d;
+}
+
+
+/*----------------jumbotron----------------*/
+
+.jumbotron {
+  position: relative;
+}
+
+.jumbotron .jumbotron-image{
+  width: 100%;
+}
+
+.jumbotron .content {
+  position: absolute;
+  left: 140px;
+  top: 250px;
+  color: #fff;
+}
+
+.jumbotron .content .title {
+  font-size: 50px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.jumbotron .content .sub-title {
+  font-size: 20px;
+}
+
+.jumbotron .content .start {
+  margin-top: 40px;
+  background: #e74f4d;
+  border-radius: 1px;
+  width: 300px;
+  height: 60px;
+  line-height: 60px;
+  color: #fff;
+  border: none;
+  font-size: 28px;
+}
+
+          
+/*----------------introduction----------------*/
+
+.introduction {
+
+}
+
+.introduction .list {
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.introduction .list .detail {
+  display: inline-block;
+  width: 330px;
+  height: 250px;
+  text-align: center;
+}
+
+.introduction .list .detail .icon {
+  margin-top: 50px;
+  margin-bottom: 45px;
+}
+
+.introduction .list .detail .content {
+  font-size: 15px;
+  margin: 5px 0;
+  color: #787b83;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.introduction .list .detail .content-border {
+  border-right: 1px solid #787b83;
+}
+
+/*----------------new-world----------------*/
+
+.new-world .grey-background {
+  background: #eee;
+  height: 400px;
+  text-align: center;
+}
+
+.new-world .grey-background .icon {
+  margin-top: 100px;
+}
+
+.new-world .grey-background .title {
+  font-size: 50px;
+  margin-top: 20px;
+  color: #999;
+}
+
+.new-world .search-city {
+  position: relative;
+  background: url(map.png) no-repeat center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+
+  color: #fff;
+}
+
+
+.new-world .search-city .cover {
+  position: absolute;
+  background: #be4e48;
+  opacity: 0.2;
+  top: 0;
+  height: 300px;
+  width: 100%;
+}
+
+.new-world .search-city .title {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 22px;
+}
+
+.new-world .search-city .divide {
+  width: 30px;
+  height: 3px;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 90px;
+}
+
+.new-world .search-city .sub-title {
+  position: absolute;
+  top: 110px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+}
+
+
+/*----------------activity----------------*/
+
+.activity {
+  background: #eee;
+  text-align: center;
+}
+
+.activity .list {
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+  padding: 100px 0;
+}
+
+.activity .list .box {
+  margin: 0 30px;
+  display: inline-block;
+  height: 400px;
+}
+
+.activity .list .box .image-box {
+  background: #fff;
+  width: 240px;
+  border: 1px solid #d2d2d2;
+  padding: 10px;
+}
+
+.activity .list .box .image-box .image {
+  width: 100%;
+}
+
+.activity .list .box .address {
+  margin-top: 20px;
+}
+
+.activity .list .box .des {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #999;
+}

@@ -1,0 +1,400 @@
+body, p, span {
+  margin: 0;
+  padding: 0;
+  font-family: '微软雅黑';
+}
+
+
+.container {
+  width: 892px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*----------------------顶栏-----------------------*/
+
+.header {
+  position: relative;
+  border-bottom: 2px solid #938e8c;
+}
+
+.header .logo {
+  position: relative;
+  background: #d45d5c;
+  height: 61px;
+  width: 110px;
+}
+
+.header .logo span {
+  color: #fff;
+  font-family: '黑体';
+  font-size: 12px;
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}
+
+.header .date {
+  color: #d45d5c;
+  font-family: '黑体';
+  font-size: 12px;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}
+
+
+/*----------------------第一部分-----------------------*/
+
+.part-one {
+  margin-top: 20px;
+}
+
+.part-one .image {
+  position: absolute;
+  left: 0;
+  width: 641px;
+  height: 301px;
+}
+
+.part-one .image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.part-one .image .left-cover {
+  position: absolute;
+  width: 191px;
+  height: 301px;
+  background: #4a6951;
+  opacity: 0.5;
+  left: 0;
+  top: 0;
+  z-index: 11;
+} 
+
+.part-one .image .right-cover {
+  position: absolute;
+  width: 191px;
+  height: 301px;
+  background: #e4b7b6;
+  opacity: 0.5;
+  right: 0;
+  top: 0;
+  z-index: 11;
+} 
+
+.part-one .up {
+  position: relative;
+  height: 301px;
+}
+
+.part-one .about {
+  position: absolute;
+  right: 0;
+  width: 203px;
+  height: 299px;
+  border-top: 2px solid #cc8091;
+}
+
+.about .title {
+  font-size: 24px;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.about .subtitle {
+  font-size: 12px;
+  color: #676767;
+  font-family: '楷体';
+  line-height: 10px;
+}
+
+.about .number {
+  font-size: 116px;
+  color: #75b86b;
+  font-style: oblique;
+  margin: -10px -20px;
+}
+
+.about .css {
+  overflow: hidden;
+  position: relative;
+  color: #cc8091;
+}
+
+.about .css .version {
+  font-size: 55px;
+  float: left;
+}
+
+.about .css .sub-css {
+  margin-top: 18px;
+  margin-left: 5px;
+  float: left;
+  position: relative;
+  height: 100%;
+}
+
+.about .css .sub-css .css-title {
+  font-size: 21px;
+}
+
+.about .css .sub-css .css-subtitle {
+  font-size: 12px;
+  color: #999;
+}
+
+.down {
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+.down .what {
+  float: left;
+}
+
+.down .when {
+  margin-left: 20px;
+  float: left;
+}
+
+.down .how {
+  margin-left: 20px;
+  float: left;
+}
+
+.down .what-title {
+  font-size: 16px;
+  color: #418c59;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.down .when-title {
+  font-size: 16px;
+  color: #d2994f;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.down .how-title {
+  font-size: 16px;
+  color: #cc7680;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.down .how > .percent {
+  margin-top: 20px;
+}
+
+.down .how .percent > .what-percent {
+  font-size: 12px;
+}
+
+.down .how .percent > .what-percent > span {
+  color: #cd4a48;
+  line-height: 16px;
+  font-style: oblique;
+  opacity: 0.7;
+}
+
+.down .content {
+  margin-top: 10px;
+  width: 210px;
+  font-size: 12px;
+  color: #767777;
+  font-family: '宋体';
+  line-height: 16px;
+}
+
+/*----------------------第二部分-----------------------*/
+
+.part-two {
+  margin-top: 40px;
+  overflow: auto;
+}
+
+.part-two .left {
+  width: 400px;
+  float: left;
+}
+
+.part-two .left .title {
+  font-family: '黑体';
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 2px solid #11456b;
+  color: #11456b;
+  font-size: 30px;
+}
+
+.part-two .left .title .big {
+  font-size: 40px;
+  color: #f5e327;
+  font-style: oblique;
+  margin-right: 20px;
+}
+
+.part-two .left .title .translate {
+  font-size: 30px;
+  color: #11456b;
+}
+
+.part-two .left .content .big {
+  font-size: 40px;
+  color: #f5e327;
+  font-family: '微软雅黑';
+  float: left;
+  margin: 0 10px;
+
+}
+
+.part-two .left .content {
+  margin-top: 10px;
+  font-size: 8px;
+  color: #767777;
+  font-family: '宋体';
+  overflow: hidden;
+}
+
+
+.part-two .left .content .image {
+  float: right;
+  margin: 10px;
+  top: 50px;
+  width: 180px;
+}
+
+.part-two .right {
+  float: right;
+  width: 458px;
+}
+
+.part-two .right .up {
+  position: relative;
+  width: 458px;
+  height: 275px;
+}
+
+.part-two .right .up img{
+  position: absolute;
+  top: 0;
+  width: 458px;
+  height: 275px;
+  z-index: 10;
+}
+
+.part-two .right .up .cover {
+  position: absolute;
+  bottom: 0;
+  width: 458px;
+  height: 61px;
+  background: #000;
+  opacity: 0.5;
+  z-index: 11;
+}
+
+.part-two .right .up .cover .title {
+  position: absolute;
+  height: 44px;
+  line-height: 44px;
+  padding-left: 15px;
+  margin-left: 20px;
+  border-left: 3px solid #72b16a;
+  color: #fff;
+  font-size: 26px;
+  font-family: '微软雅黑';
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.part-two .right .up .cover .title span {
+  height: 44px;
+  font-size: 12px;
+  color: #72b16a;
+  font-style: oblique;
+  margin-left: 10px;
+}
+
+.part-two .right .down {
+  overflow: hidden;
+  font-family: '黑体';
+  background: #e2d6b1;
+}
+
+.part-two .right .down .list {
+  list-style: square;
+}
+
+.part-two .right .down .box p {
+  padding: 20px;
+  margin-left: 260px;
+  font-size: 14px;
+  color: #5a5b5b;
+  font-style: oblique;
+}
+
+.part-two .right .down .box span {
+  font-size: 72px;
+  color: #d45d5c;
+  line-height: 50px;
+}
+
+.part-two .right .down .box .left {
+  background: #d45d5c;
+  width: 260px;
+  height: 160px;
+  float: left;
+  position: relative;
+}
+
+.part-two .right .down .box .left .big { 
+  font-size: 110px;
+  color: #fff;
+  font-family: '微软雅黑';
+  line-height: 160px;
+  margin-left: 10px;
+}
+
+.part-two .right .down .box .left .divid {
+  height: 86px;
+  border-left: 2px solid #fff;
+  position: absolute;
+  top: 50%;
+  left: 80px;
+  transform: translateY(-50%);
+}
+
+.part-two .right .down .box .left .divid .divid-title {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 21px;
+  font-family: '黑体';
+  font-style: oblique;
+  margin-left: 10px;
+}
+
+.part-two .right .down .box .left .divid .divid-content {
+  margin: 0;
+  padding: 0;
+  font-family: '黑体';
+  font-size: 12px;
+  color: #fff;
+  margin-top: 6px;
+  margin-left: 10px;
+}
+
+/*----------------------注脚-----------------------*/
+
+.footer {
+  background: #999;
+}
