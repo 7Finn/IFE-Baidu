@@ -60,7 +60,7 @@ body {
   width: 1200px;
 }
 
-/*------------------------nav------------------------*/
+/*------------------------nav-head------------------------*/
 
 .nav {
   float: left;
@@ -69,19 +69,62 @@ body {
   height: 1200px;
 }
 
-.nav .head-pic {
-  width: 57px;
-  height: 57px;
-  border: 1px solid #b9babd;
-  border-radius: 50%;
+.head-div {
+  position: relative;
+  height: 100px;
 }
 
-.nav .head-pic .circle {
-  width: 47px;
-  height: 47px;'
-  background: #b9babd;
+.head-pic {
+  position: absolute;
+  left: 45px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 55px;
+  height: 55px;
+  border: 1px solid #b9babd;
   border-radius: 50%;
+  text-align: center;
+  line-height: 52px;
 }
+
+.head-pic .circle {
+  width: 47px;
+  height: 47px;
+  background-color: #b9babd;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.head-div .username {
+  color: #fff;
+  position: absolute;
+  left: 120px;
+  top: 50%;
+  transform: translateY(-50%);
+  line-height: 57px;
+  font-size: 14px;
+}
+
+/*------------------------nav-focus------------------------*/
+
+.focus-div ul {
+  text-align: center;
+  list-style: none;
+  color: #67778b;
+}
+
+.focus-div li {
+  font-size: 14px;
+  width: 80px;
+  display: inline-block;
+  text-align: center;
+}
+
+.focus-div .collect {
+  border-right: 2px solid #313545;
+}
+
 
 /*------------------------content------------------------*/
 .content {
