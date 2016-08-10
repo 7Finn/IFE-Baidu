@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: '微软雅黑';
+  background: #eee;
+}
+
+/*------------------------Header------------------------*/
+
+.header {
+  background: #2189bf;
+  height: 56px;
+  position: relative;
+}
+
+.header .logo {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 60px;
+}
+
+.header .search-box {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 120px;
+  height: 30px;
+  width: 250px;
+  border-radius: 15px 15px;
+  border: none;
+  background: url(icon/zoom.png) no-repeat;
+  background-color: #fff;
+  background-position: 15px;
+  padding-left: 40px;
+}
+
+.header .search-box:focus {
+  outline: none;
+}
+
+.header .login {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 40px;
+  background: url(icon/login.png) no-repeat;
+  padding-left: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+/*------------------------Container------------------------*/
+
+.container {
+  width: 1200px;
+}
+
+/*------------------------nav------------------------*/
+
+.nav {
+  float: left;
+  width: 260px;
+  background: #2a2e3d;
+  height: 1200px;
+}
+
+.nav .head-pic {
+  width: 57px;
+  height: 57px;
+  border: 1px solid #b9babd;
+  border-radius: 50%;
+}
+
+.nav .head-pic .circle {
+  width: 47px;
+  height: 47px;'
+  background: #b9babd;
+  border-radius: 50%;
+}
+
+/*------------------------content------------------------*/
+.content {
+  float: left;
+  width: 900px;
+  height: 1200px;
+}
