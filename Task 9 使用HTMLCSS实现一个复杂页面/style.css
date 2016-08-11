@@ -108,10 +108,10 @@ body {
 
 /*------------------------nav-focus------------------------*/
 
-.focus-div ul {
+.focus-div {
   text-align: center;
   list-style: none;
-  color: #67778b;
+  color: #67778b; 
 }
 
 .focus-div li {
@@ -123,6 +123,79 @@ body {
 
 .focus-div .collect {
   border-right: 2px solid #313545;
+}
+
+
+/*------------------------content------------------------*/
+
+.nav .list a {
+  text-decoration: none;
+  color: #6e8096;
+  font-size: 12px;
+  min-height: 100%;
+}
+
+.nav .list .open {
+  color: #fff;
+}
+
+.nav .list {
+  margin-top: 20px;
+  list-style: none;
+}
+
+.nav .list li {
+  padding-left: 50px;
+  min-height: 48px;
+  line-height: 48px;
+}
+
+.nav .list li:hover {
+  background-color: #383d4e;
+}
+
+.nav .list-open {
+  background-color: #383d4e;
+}
+
+.list li span {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.list .file_open { background: url(icon/file_open.png) no-repeat center; }
+.list .star { background: url(icon/star.png) no-repeat center; }
+.list .share { background: url(icon/share.png) no-repeat center; }
+.list .user_info { background: url(icon/user_info.png) no-repeat center; }
+.list .file_close { background: url(icon/file_close.png) no-repeat center; }
+.list .doc_open { background: url(icon/doc_open.png) no-repeat center; }
+.list .doc_close { background: url(icon/doc_close.png) no-repeat center; }
+.list .open_arrow { background: url(icon/open_arrow.png) no-repeat center; }
+.list .close_arrow { background: url(icon/close_arrow.png) no-repeat center; }
+
+.list .second-file {
+  list-style: none;
+  display: block;
+  min-height: 32px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.list .second-file li {
+  padding-left: 0;
+  min-height: 32px;
+  line-height: 32px;
+}
+
+.list .second-file span {
+  margin-right: 4px;
+}
+
+.list .second-file .third-file {
+  list-style: none;
+  padding-left: 20px;
 }
 
 
