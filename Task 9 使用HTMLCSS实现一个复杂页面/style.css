@@ -5,12 +5,27 @@
 
 body {
   font-family: '微软雅黑';
+  color: #333;
   background: #eee;
 }
 
 button {
   cursor: pointer;
   outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  float: left;
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
 }
 
 .file-open { background: url(icon/file_open.png) no-repeat center; }
@@ -144,7 +159,6 @@ button {
 
 
 /*------------------------content------------------------*/
-
 
 .nav .list a {
   text-decoration: none;
@@ -464,4 +478,65 @@ button {
 
 .price-box .history-search > span {
   margin-left: 25px;
+  color: #333;
+}
+
+/*------------------------Volume-Box------------------------*/
+
+.volume-box {
+  margin-top: 20px;
+}
+
+.volume-box p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.volume-box .item {
+  position: relative;
+  width: 200px;
+  height: 70px;
+  background: #fff;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+  margin-right: 31px;
+  font-size: 13px;
+}
+
+.volume-box .item:before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 70px;
+}
+
+.volume-box .item:after {
+  content: '';
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  height: 50px;
+}
+
+.volume-box li:last-child {
+  margin-right: 0;
+}
+
+.volume-box li:nth-child(1):before, li:nth-child(1):after {background-color: #43b29d;}
+.volume-box li:nth-child(2):before, li:nth-child(2):after {background-color: #388ac1;}
+.volume-box li:nth-child(3):before, li:nth-child(3):after {background-color: #d04b36;}
+.volume-box li:nth-child(4):before, li:nth-child(4):after {background-color: #e2cd46;}
+
+.volume-box .item p {
+  margin-left: 20px;
+}
+
+.volume-box .item p:nth-child(1) {
+  margin-top: 12px;
+}
+
+.volume-box .item p:nth-child(2) {
+  color: #aaa;
 }
