@@ -8,6 +8,11 @@ body {
   background: #eee;
 }
 
+button {
+  cursor: pointer;
+  outline: none;
+}
+
 .file-open { background: url(icon/file_open.png) no-repeat center; }
 .star { background: url(icon/star.png) no-repeat center; }
 .share { background: url(icon/share.png) no-repeat center; }
@@ -344,4 +349,119 @@ body {
 
 .query-box .search:active {
   background: #286188;
+}
+
+/*------------------------Price-Box------------------------*/
+
+.price-box {
+  height: 70px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.price-box .button {
+  margin-right: 5px;
+  width: 30px;
+  height: 70px;
+  border: 1px solid #ddd;
+  float: left;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.price-box .button:active {
+  background-color: #eee;
+}
+
+.price-box .right {
+  width: 30px;
+
+}
+
+.price-box ul {
+  float: left;
+  list-style: none;
+}
+
+.left-arrow {
+  margin: 0 auto;
+  width: 8px;
+  height: 8px;
+  border: 1px solid #b0b0b0;
+  border-top: 0;
+  border-right: 0;
+  transform: rotateZ(45deg);
+}
+
+.right-arrow {
+  margin: 0 auto;
+  width: 8px;
+  height: 8px;
+  border: 1px solid #b0b0b0;
+  border-bottom: 0;
+  border-left: 0;
+  transform: rotateZ(45deg);
+}
+
+
+.price-box ul .item {
+  float: left;
+  margin-right: 5px;
+  cursor: pointer;
+  height: 68px;
+  width: 110px;
+  background: #fff;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+}
+
+.price-box ul .item:before {
+  visibility: hidden;
+  position: absolute;
+  content: '';
+  width: 110px;
+  height: 4px;
+  background: #4388c9;
+}
+
+.price-box ul .cur:before {
+  visibility: visible;
+}
+
+.price-box ul .item:hover:before{
+  visibility: visible;
+}
+
+.price-box .item time {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 12px;
+}
+
+.price-box .item .money {
+  display: block;
+  text-align: center;
+  font-size: 21px;
+  color: #ec6602;
+  margin-top: 5px;
+
+}
+
+.price-box .item .money:before {
+  content: '￥';
+  font-size: 14px;
+  color: #999;
+}
+
+
+.price-box .history-search {
+  width: 130px;
+  margin-right: 0;
+  background: url(icon/history.png) no-repeat 10px;
+  background-color: #fff;
+}
+
+.price-box .history-search > span {
+  margin-left: 25px;
 }
