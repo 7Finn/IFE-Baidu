@@ -57,7 +57,7 @@ body {
 /*------------------------Container------------------------*/
 
 .container {
-  width: 1200px;
+  width: 1280px;
 }
 
 /*------------------------nav-head------------------------*/
@@ -127,6 +127,7 @@ body {
 
 
 /*------------------------content------------------------*/
+
 
 .nav .list a {
   text-decoration: none;
@@ -199,9 +200,36 @@ body {
 }
 
 
-/*------------------------content------------------------*/
+/*------------------------Main------------------------*/
+.main {
+  float: left;
+  width: 1020px;
+  height: 1200px;
+}
+
+/*------------------------Content------------------------*/
+
 .content {
   float: left;
-  width: 900px;
-  height: 1200px;
+  display: inline-block;
+  height: 30px;
+  background: #fff;
+  color: #aaa;
+  font-size: 14px;
+  width: 100%;
+}
+
+.content a {
+  color: #aaa;
+  line-height: 30px;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.content a:first-child {
+  margin-left: 20px;
+}
+
+.content .current {
+  color: #6898c2;
 }
